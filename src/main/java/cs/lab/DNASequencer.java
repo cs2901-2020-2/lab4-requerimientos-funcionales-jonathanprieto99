@@ -30,7 +30,7 @@ public class  DNASequencer {
                 }
                 logger.info("Comun: "+comun);
                 logger.info("Principal: "+ResultadoSecuencia);
-                logger.info("Agregar: "+part.get(i).replace(comun,""));
+                logger.info("Agregar: "+part.get(i));
                 ResultadoSecuencia=ResultadoSecuencia.concat(part.get(i));
                 logger.info("Concatenado: "+ResultadoSecuencia);
                 ResultadoSecuencia=ResultadoSecuencia.replace(comun,"");
