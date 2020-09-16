@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="">
+    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="First Commit">
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
@@ -49,6 +49,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -99,14 +100,30 @@
       <option name="presentableId" value="Default" />
       <updated>1600228064189</updated>
       <workItem from="1600228065558" duration="5421000" />
-      <workItem from="1600265332313" duration="1823000" />
+      <workItem from="1600265332313" duration="3333000" />
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1600267541975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600267541975</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="0" y="136" key="CommitChangelistDialog2" timestamp="1600267541781">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="0" y="136" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1600267541781" />
     <state x="1142" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600266958818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
