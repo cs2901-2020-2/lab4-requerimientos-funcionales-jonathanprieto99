@@ -20,17 +20,21 @@ public class  DNASequencer {
                 logger.info("Ya contenia la cadena de caracter.");
             }
             else {
-                String comun = "";
+                StringBuilder comun = new StringBuilder();
                 for (int j = 0; j < ResultadoSecuencia.length(); j++) {
                     for (int k = 0; k < part.get(i).length(); k++) {
                         if(ResultadoSecuencia.charAt(i)==part.get(i).charAt(j)){
-                            comun += ResultadoSecuencia.charAt(i)+" ";
+                            comun.append(ResultadoSecuencia.charAt(i)).append(" ");
                             break;
                         }
                     }
                 }
+                ResultadoSecuencia=ResultadoSecuencia.concat(part.get(i).replace(comun,""));
+                logger.info(ResultadoSecuencia);
             }
         }
+        logger.info("Final: "+ResultadoSecuencia);
+        return ResultadoSecuencia;
     }
 }
 
