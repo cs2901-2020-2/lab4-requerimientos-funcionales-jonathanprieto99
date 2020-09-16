@@ -16,21 +16,25 @@ public class  DNASequencer {
             if (ResultadoSecuencia.equals("")){
                 ResultadoSecuencia=part.get(i);
             }
-            if(ResultadoSecuencia.contains(part.get(i))){
-                logger.info("Ya contenia la cadena de caracter.");
-            }
             else {
-                StringBuilder comun = new StringBuilder();
+                String comun="";
                 for (int j = 0; j < ResultadoSecuencia.length(); j++) {
+                    //logger.info("Word1: "+ResultadoSecuencia);
                     for (int k = 0; k < part.get(i).length(); k++) {
-                        if(ResultadoSecuencia.charAt(i)==part.get(i).charAt(j)){
-                            comun.append(ResultadoSecuencia.charAt(i)).append(" ");
+                        //logger.info("Word2: "+part.get(i));
+                        if(ResultadoSecuencia.charAt(j)==part.get(i).charAt(k)){
+                            comun+=ResultadoSecuencia.charAt(j);
                             break;
                         }
                     }
                 }
-                ResultadoSecuencia=ResultadoSecuencia.concat(part.get(i).replace(comun,""));
-                logger.info(ResultadoSecuencia);
+                logger.info("Comun: "+comun);
+                logger.info("Principal: "+ResultadoSecuencia);
+                logger.info("Agregar: "+part.get(i).replace(comun,""));
+                ResultadoSecuencia=ResultadoSecuencia.concat(part.get(i));
+                logger.info("Concatenado: "+ResultadoSecuencia);
+                ResultadoSecuencia=ResultadoSecuencia.replace(comun,"");
+                logger.info("Esta Aca: "+ResultadoSecuencia);
             }
         }
         logger.info("Final: "+ResultadoSecuencia);

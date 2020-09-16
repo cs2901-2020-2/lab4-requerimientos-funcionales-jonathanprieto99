@@ -11,10 +11,13 @@
     <properties>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
-        <sonar.projectKey>cs2901-2020-2_lab4</sonar.projectKey>
+        <sonar.projectKey>cs2901-2020-2_lab4-requerimientos-funcionales-jonathanprieto99</sonar.projectKey>
         <sonar.organization>cs2901-2020-2</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>a375ae6b238066c942a3dd46f5117714c8fd2bb1</sonar.login>
     </properties>
+
+
 
     <dependencies>
         <dependency>
