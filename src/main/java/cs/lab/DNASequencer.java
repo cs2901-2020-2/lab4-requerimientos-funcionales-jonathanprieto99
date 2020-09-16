@@ -11,6 +11,26 @@ public class  DNASequencer {
     }
 
     public String calculate(List<String> part){
-        return "AGATTACAGA";
+        String ResultadoSecuencia="";
+        for (int i = 0; i < part.size(); i++) {
+            if (ResultadoSecuencia.equals("")){
+                ResultadoSecuencia=part.get(i);
+            }
+            if(ResultadoSecuencia.contains(part.get(i))){
+                logger.info("Ya contenia la cadena de caracter.");
+            }
+            else {
+                String comun = "";
+                for (int j = 0; j < ResultadoSecuencia.length(); j++) {
+                    for (int k = 0; k < part.get(i).length(); k++) {
+                        if(ResultadoSecuencia.charAt(i)==part.get(i).charAt(j)){
+                            comun += ResultadoSecuencia.charAt(i)+" ";
+                            break;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
+
