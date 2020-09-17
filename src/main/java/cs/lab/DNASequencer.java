@@ -10,7 +10,7 @@ public class  DNASequencer {
         logger.info("Starting sequencer...");
     }
 
-    public String calculate(List<String> part) throws Exception {
+    public String calculate(List<String> part) throws TooLongLinesEx, TooManyLinesEx {
 
         if(part.size()>160000){
             throw new TooManyLinesEx("¡Se supero la cantidad maxima de subsecuencias que es de 160,000!");

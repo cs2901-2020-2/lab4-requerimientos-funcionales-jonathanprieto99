@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="Se agregaron los tests.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cs/lab/TooManyLinesEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
+    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="Add Special Exception">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/TooLongLinesEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/TooLongLinesEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/TooManyLinesEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/TooManyLinesEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,11 +51,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cs.lab" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.DNASequencerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -82,6 +86,24 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DNASequencerTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="lab4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cs.lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cs.lab" />
+      <option name="MAIN_CLASS_NAME" value="cs.lab.DNASequencerTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DNASequencerTest" />
         <item itemvalue="TestNG.DNASequencerTest.testCase1" />
       </list>
     </recent_temporary>
@@ -139,7 +162,7 @@
       <updated>1600228064189</updated>
       <workItem from="1600228065558" duration="5421000" />
       <workItem from="1600265332313" duration="13693000" />
-      <workItem from="1600347647842" duration="3016000" />
+      <workItem from="1600347647842" duration="3677000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1600267541975</created>
@@ -211,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600351473142</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add Special Exception">
+      <created>1600352047795</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600352047795</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +257,8 @@
     <MESSAGE value="Arreglos para Sonar Cloud" />
     <MESSAGE value="Se agrego los throw, aun no se hacen los tests." />
     <MESSAGE value="Se agregaron los tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron los tests." />
+    <MESSAGE value="Add Special Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Special Exception" />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600268976790">
@@ -242,26 +273,26 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="994" y="380" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600268975915" />
-    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2" timestamp="1600351472960">
+    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2" timestamp="1600352047686">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1600351472960" />
-    <state width="854" height="303" key="GridCell.Tab.0.bottom" timestamp="1600350791226">
+    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1600352047686" />
+    <state width="1750" height="303" key="GridCell.Tab.0.bottom" timestamp="1600352112041">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="854" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600350791226" />
-    <state width="854" height="303" key="GridCell.Tab.0.center" timestamp="1600350791226">
+    <state width="1750" height="303" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1600352112041" />
+    <state width="1750" height="303" key="GridCell.Tab.0.center" timestamp="1600352112040">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="854" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600350791226" />
-    <state width="854" height="303" key="GridCell.Tab.0.left" timestamp="1600350791225">
+    <state width="1750" height="303" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1600352112040" />
+    <state width="1750" height="303" key="GridCell.Tab.0.left" timestamp="1600352112040">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="854" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600350791225" />
-    <state width="854" height="303" key="GridCell.Tab.0.right" timestamp="1600350791226">
+    <state width="1750" height="303" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1600352112040" />
+    <state width="1750" height="303" key="GridCell.Tab.0.right" timestamp="1600352112041">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state width="854" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600350791226" />
+    <state width="1750" height="303" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1600352112041" />
     <state x="1142" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600266958818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
