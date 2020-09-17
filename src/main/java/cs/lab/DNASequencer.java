@@ -34,9 +34,11 @@ public class  DNASequencer {
         return (sb.reverse().toString());
     }
 
-    public String imprimiradn(String palabra1, String palabra2){
+    public int [][] buildmatrix(String palabra1, String palabra2){
+
         int sizeword1=palabra1.length();
         int sizeword2=palabra2.length();
+
         int [][] matriz = new int[sizeword1+1][sizeword2+1];
 
         for (int i = 0; i < sizeword1; ++i){
@@ -52,13 +54,23 @@ public class  DNASequencer {
                 }
                 else{
                     matriz[i][j] = 1 + Math.min(matriz[i - 1][j], matriz[i][j - 1]);
+
                 }
             }
         }
+        return matriz;
+    }
+
+    public String imprimiradn(String palabra1, String palabra2){
+
+
+        int [][] matriz = buildmatrix(palabra1,palabra2);
+
 
         StringBuilder palabraresultante= new StringBuilder();
-        int tamanowhile1 = sizeword1;
-        int tamanowhile2 = sizeword2;
+
+        int tamanowhile1 = palabra1.length();
+        int tamanowhile2 = palabra2.length();
 
         while (tamanowhile1 > 0 && tamanowhile2 > 0)
         {
@@ -95,7 +107,7 @@ public class  DNASequencer {
         }
 
         palabraresultante = new StringBuilder(reverse(palabraresultante.toString()));
-        logger.info(palabraresultante.toString());
+
         return palabraresultante.toString();
     }
 }

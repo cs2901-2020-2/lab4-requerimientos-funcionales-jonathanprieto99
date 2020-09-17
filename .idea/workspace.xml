@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="Commit4">
+    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="Version Funcional">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
     </list>
@@ -98,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1600228064189</updated>
       <workItem from="1600228065558" duration="5421000" />
-      <workItem from="1600265332313" duration="10408000" />
+      <workItem from="1600265332313" duration="13179000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1600267541975</created>
@@ -135,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600271723418</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Version Funcional">
+      <created>1600286293514</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600286293514</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,7 +154,8 @@
     <MESSAGE value="Cambios POM" />
     <MESSAGE value="Commit3" />
     <MESSAGE value="Commit4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit4" />
+    <MESSAGE value="Version Funcional" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version Funcional" />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600268976790">
@@ -158,14 +166,18 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="994" y="380" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600268975915" />
-    <state x="0" y="136" width="998" height="360" key="CommitChangelistDialog2" timestamp="1600271723324">
+    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2" timestamp="1600307927855">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="0" y="136" width="998" height="360" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1600271723324" />
+    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1600307927855" />
     <state x="1142" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600266958818">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="1142" y="492" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1792.1097@0.23.1792.1097" timestamp="1600266958818" />
+    <state x="113" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1600286209343">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="113" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1600286209343" />
   </component>
   <component name="masterDetails">
     <states>
