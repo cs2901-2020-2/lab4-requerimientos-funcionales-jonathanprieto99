@@ -2,17 +2,31 @@ package cs.lab;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-@Test
 public class DNASequencerTest {
 
+    @Test
     public void testCase0() throws Exception {
         generic(0);
+    }
+
+    @Test(invocationCount = 50, threadPoolSize = 50)
+    public void testCase1() throws Exception {
+        generic(0);
+    }
+
+    @Test(expectedExceptions = Exception.class)
+    public void testCase2() throws Exception {
+        generic(1);
+    }
+
+    @Test(expectedExceptions = Exception.class)
+    public void testCase3() throws Exception {
+        generic(2);
     }
 
     private void generic(int i) throws Exception {
