@@ -10,11 +10,18 @@ public class  DNASequencer {
         logger.info("Starting sequencer...");
     }
 
-    public String calculate(List<String> part){
+    public String calculate(List<String> part) throws Exception {
+
+        if(part.size()>160000){
+            throw new Exception("¡Se supero la cantidad maxima de subsecuencias que es de 160,000!");
+        }
 
         String cadenaresultante = "";
 
         for (String s : part) {
+            if(s.length()>200){
+                throw new Exception("¡Se supero la longitud maxima de caracteres por subsecuencias que es de 200!");
+            }
             if (cadenaresultante.length() == 0) {
                 cadenaresultante = s;
             } else {
