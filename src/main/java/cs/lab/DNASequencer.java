@@ -35,7 +35,7 @@ public class  DNASequencer {
 
     }
 
-    public String reverse(String palabra)
+    public String reversa(String palabra)
     {
         StringBuilder sb = new StringBuilder(palabra);
         return (sb.reverse().toString());
@@ -113,7 +113,7 @@ public class  DNASequencer {
             --tamanowhile2;
         }
 
-        palabraresultante = new StringBuilder(reverse(palabraresultante.toString()));
+        palabraresultante = new StringBuilder(reversa(palabraresultante.toString()));
 
         return palabraresultante.toString();
     }
