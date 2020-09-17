@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="Se agrego los throw, aun no se hacen los tests.">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1_input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case1_output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test_case2_output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cs/lab/DNASequencerTest.java" afterDir="false" />
+    <list default="true" id="e932e8cd-2fe8-49c4-b205-1ad0953cc584" name="Default" comment="Se agregaron los tests.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cs/lab/TooManyLinesEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cs/lab/DNASequencer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +139,7 @@
       <updated>1600228064189</updated>
       <workItem from="1600228065558" duration="5421000" />
       <workItem from="1600265332313" duration="13693000" />
-      <workItem from="1600347647842" duration="2663000" />
+      <workItem from="1600347647842" duration="3016000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1600267541975</created>
@@ -208,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600349790697</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Se agregaron los tests.">
+      <created>1600351473142</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1600351473142</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +226,8 @@
     <MESSAGE value="Version Funcional" />
     <MESSAGE value="Arreglos para Sonar Cloud" />
     <MESSAGE value="Se agrego los throw, aun no se hacen los tests." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrego los throw, aun no se hacen los tests." />
+    <MESSAGE value="Se agregaron los tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Se agregaron los tests." />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="233" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600268976790">
@@ -238,10 +242,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="994" y="380" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1600268975915" />
-    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2" timestamp="1600349790452">
+    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2" timestamp="1600351472960">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
-    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1600349790452" />
+    <state x="0" y="136" width="998" height="871" key="CommitChangelistDialog2/0.23.1792.1097@0.23.1792.1097" timestamp="1600351472960" />
     <state width="854" height="303" key="GridCell.Tab.0.bottom" timestamp="1600350791226">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>

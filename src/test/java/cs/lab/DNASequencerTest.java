@@ -19,12 +19,12 @@ public class DNASequencerTest {
         generic(0);
     }
 
-    @Test(expectedExceptions = Exception.class)
+    @Test(expectedExceptions = TooLongLinesEx.class)
     public void testCase2() throws Exception {
         generic(1);
     }
 
-    @Test(expectedExceptions = Exception.class)
+    @Test(expectedExceptions = TooManyLinesEx.class)
     public void testCase3() throws Exception {
         generic(2);
     }
